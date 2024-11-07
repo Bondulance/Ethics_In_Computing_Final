@@ -1,7 +1,20 @@
+:root {
+
+}
+
 body {
     margin: 0;
     display: flex;
-    
+    padding: 0;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 300px);
 }
 
 #left_sidebar_container {
@@ -14,12 +27,18 @@ body {
 /*PLACE MEDIA QUERIES HERE*/
 @media (max-width:820px) {
     #left_sidebar_container {
-        visibility: hidden;
+        display: none;
+    }
+    main {
+        width: 100%;
     }
 }
 
 @media (max-width:1300px) {
     #left_sidebar_container {
         width: 200px;
+    }
+    main {
+        width: calc(100% - 200px);
     }
 }
