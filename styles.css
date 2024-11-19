@@ -12,6 +12,35 @@ body {
     justify-content: center;
 }
 
+h1 {
+    font-family: "Inter", Candara, sans-serif;
+    font-size: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 25px;
+    padding: 0;
+}
+
+.tag {
+    font-family: "Inter", Candara, sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    transition: 200ms ease-in-out;
+    padding: 0;
+    text-decoration: none;
+}
+
+.tag:hover {
+    color: white;
+}
+
+.link_item {
+    padding-top:15px;
+}
+
+
 main {
     display: flex;
     flex-direction: column;
@@ -22,7 +51,7 @@ main {
 }
 
 #left_sidebar_container {
-    background: gray;
+    background: var(--lightblue);
     position: relative;
     height: 100vh;
     width: 300px;
