@@ -40,6 +40,9 @@ ul {
     padding-top:15px;
 }
 
+p {
+    display: flex;
+}
 
 main {
     display: flex;
@@ -48,6 +51,22 @@ main {
     align-items: center;
     width: calc(100% - 300px);
     padding: 0px 20px 0px 20px;
+}
+
+.top_section {
+    margin-top: 15px;
+}
+
+video {
+    background: gray;
+    display: flex;
+    margin-top: 10px;
+}
+
+#banner {
+    background: var(--orange);
+    padding-top:2px;
+    padding-bottom:2px;
 }
 
 #left_sidebar_container {
@@ -74,5 +93,26 @@ main {
     }
     main {
         width: calc(100% - 200px);
+    }
+    video {
+        width: 800px;
+    }
+}
+
+@media (max-width:1470px) {
+    video {
+        width: 1000px;
+    }
+}
+
+@media (max-width:1208px) {
+    video {
+        width: 700px;
+    }
+}
+@media (max-width:710px) {
+    video {
+        width: 400px;
+        margin-top: 20px;
     }
 }
