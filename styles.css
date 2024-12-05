@@ -147,6 +147,10 @@ video {
     left: 0;
 }
 
+#content2 {
+    font-family: "Inter";
+    font-size: 20px;
+}
 
 /*PLACE MEDIA QUERIES HERE*/
 @media (max-width: 997px) {
