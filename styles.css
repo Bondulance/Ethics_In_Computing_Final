@@ -134,12 +134,19 @@ footer {
 #videoarea {
     display: flex;
     justify-content: center;
+    width: 800px;
+    align-items: center;
 }
 
 video {
     background: gray;
     display: flex;
     margin-top: 10px;
+}
+
+#varea {
+    display: flex;
+    justify-content: center;
 }
 
 #banner {
@@ -199,6 +206,12 @@ video {
     }
 }
 
+@media (min-width:1200px) {
+    #videoarea {
+        width: 1000px;
+    }
+}
+
 @media (max-width:1553px) {
     #left_sidebar_container {
         width: 200px;
@@ -226,6 +239,9 @@ video {
     video {
         width: 400px;
         margin-top: 20px;
+    }
+    #videoarea {
+        width: 400px;
     }
 }
 
